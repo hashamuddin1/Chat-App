@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.message {
+    background-color: grey;
+    width: 26%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left {
+    float: left;
+    clear: both;
+    width: auto;
+}
+
+.right {
+    float: right;
+    clear: both;
+    width: auto;
+}
+
+#send-container {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#messageInp {
+    width: 45%;
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 90%;
+}
